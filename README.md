@@ -50,3 +50,12 @@ codepath-capstone-main/
 ├── vite.config.js
 ├── eslint.config.js
 └── .gitignore
+
+
+# Clone the repository
+git clone <your-repo-url>
+cd codepath-capstone-main
+
+# Install dependencies
+npm install
+
