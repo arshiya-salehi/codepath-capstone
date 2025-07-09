@@ -1,38 +1,52 @@
-# CodePath Capstone Project – [Your Project Name]
+# 🧠 CodePath Capstone Project
 
-**Authors:** Arshiya Salehi  
-**Semester:** Spring 2025 – CodePath Capstone for Android/Full-Stack Developers  
-**Repository:** [arshiya-salehi/codepath-capstone](https://github.com/arshiya-salehi/codepath-capstone)
+A full-stack web application built using React and Supabase to allow users to create, view, and interact with posts in a streamlined UI. This project is part of the CodePath Capstone, focusing on applying modern frontend development practices and backend integration with Supabase.
 
 ---
 
-## 🧭 Project Overview
+## 🚀 Features
 
-**Brief Description:**  
-A full-stack capstone project that demonstrates proficiency in backend development (Java Servlets), database integration, RESTful endpoints, and optionally frontend/UI integration.
-
-**Core Objectives:**  
-- Implement backend services using Java Servlets  
-- Connect to a database (e.g., MySQL, PostgreSQL) for CRUD operations  
-- Document APIs (Swagger/OpenAPI optional)  
-- Deploy using Docker, AWS Elastic Beanstalk, or Heroku (if applicable)
+- 📝 Create, edit, and delete user posts
+- 💬 Add and display comments on individual posts
+- 📄 Dynamic routing between home, post creation, and individual post pages
+- 🔐 User session and data persistence via local storage
+- 🌐 Responsive UI components using React
 
 ---
 
-## 🧱 Tech Stack
+## 🛠️ Technologies Used
 
-- **Backend:** Java Servlets (possibly packaged as a WAR)  
-- **Database:** MySQL/PostgreSQL (via JDBC/Hibernate)  
-- **Build Tools:** Maven or Gradle  
-- **API Documentation:** Swagger/OpenAPI (optional)  
-- **Testing:** JUnit  
-- **Deployment:** Docker, AWS Elastic Beanstalk, Heroku, etc.
+- **Frontend**: React, Vite, JSX, CSS
+- **Backend**: Supabase (PostgreSQL, Authentication, RESTful API)
+- **Tooling**: ESLint, Node.js
 
 ---
 
-## 🚀 Setup & Run Locally
+## 📁 Project Structure
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/arshiya-salehi/codepath-capstone.git
-   cd codepath-capstone
+```bash
+codepath-capstone-main/
+├── public/               # Static assets
+│   └── vite.svg
+├── src/
+│   ├── assets/           # Media and SVGs
+│   ├── components/       # Reusable UI components
+│   │   ├── Comment.jsx
+│   │   ├── Header.jsx
+│   │   ├── PostCard.jsx
+│   │   └── PostForm.jsx
+│   ├── pages/            # Application routes/pages
+│   │   ├── CreatePost.jsx
+│   │   ├── Home.jsx
+│   │   └── PostPage.jsx
+│   ├── utils/            # Utility functions
+│   │   └── localStorage.js
+│   ├── App.jsx           # Root component
+│   ├── main.jsx          # React entry point
+│   ├── index.css         # Global styles
+│   └── supabase.js       # Supabase client config
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── .gitignore
