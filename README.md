@@ -1,13 +1,38 @@
-# React + Vite
+# CodePath Capstone Project – [Your Project Name]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Authors:** Arshiya Salehi  
+**Semester:** Spring 2025 – CodePath Capstone for Android/Full-Stack Developers  
+**Repository:** [arshiya-salehi/codepath-capstone](https://github.com/arshiya-salehi/codepath-capstone)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧭 Project Overview
 
-## Expanding the ESLint configuration
+**Brief Description:**  
+A full-stack capstone project that demonstrates proficiency in backend development (Java Servlets), database integration, RESTful endpoints, and optionally frontend/UI integration.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# codepath-capstone
+**Core Objectives:**  
+- Implement backend services using Java Servlets  
+- Connect to a database (e.g., MySQL, PostgreSQL) for CRUD operations  
+- Document APIs (Swagger/OpenAPI optional)  
+- Deploy using Docker, AWS Elastic Beanstalk, or Heroku (if applicable)
+
+---
+
+## 🧱 Tech Stack
+
+- **Backend:** Java Servlets (possibly packaged as a WAR)  
+- **Database:** MySQL/PostgreSQL (via JDBC/Hibernate)  
+- **Build Tools:** Maven or Gradle  
+- **API Documentation:** Swagger/OpenAPI (optional)  
+- **Testing:** JUnit  
+- **Deployment:** Docker, AWS Elastic Beanstalk, Heroku, etc.
+
+---
+
+## 🚀 Setup & Run Locally
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/arshiya-salehi/codepath-capstone.git
+   cd codepath-capstone
